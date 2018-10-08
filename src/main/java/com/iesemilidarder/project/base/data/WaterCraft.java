@@ -1,4 +1,4 @@
 package com.iesemilidarder.project.base.data;
 
-public abstract class EngineType {
+public abstract class WaterCraft {
 }
