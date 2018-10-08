@@ -4,11 +4,7 @@ public abstract class Vehicle {
     public abstract void start();
 
     public void brake (){
-<<<<<<< HEAD
         doLog("he frenado");
-=======
-        log("he frenado");
->>>>>>> f81ed53d1e68c5acf0b84d9f198800c9b7fbbee9
     }
 
     /**
@@ -16,7 +12,6 @@ public abstract class Vehicle {
      * @param message
      */
 
-<<<<<<< HEAD
     protected void doLog(String message){
         System.out.println(message);
     }
@@ -24,10 +19,6 @@ public abstract class Vehicle {
     private String showLog(String message){
         doLog(message);
         return message;
-=======
-    public void log(String message){
-        System.out.println(message);
->>>>>>> f81ed53d1e68c5acf0b84d9f198800c9b7fbbee9
     }
 }
 
