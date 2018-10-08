@@ -4,7 +4,16 @@ public abstract class Vehicle {
     public abstract void start();
 
     public void brake (){
-        System.out.println("he frenado");
+        log("he frenado");
+    }
+
+    /**
+     *
+     * @param message
+     */
+
+    public void log(String message){
+        System.out.println(message);
     }
 }
 
