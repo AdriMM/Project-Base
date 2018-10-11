@@ -1,5 +1,8 @@
 package com.iesemilidarder.project.base.data;
 
+import com.iesemilidarder.project.base.APPConstants;
+import com.iesemilidarder.project.base.exception.IESMyException;
+
 public abstract class Vehicle {
 
     private String color;
@@ -11,6 +14,9 @@ public abstract class Vehicle {
     }
 
     public void setNumWheels(Integer numWheels) {
+        if(numWheels==null || numWheels > APPConstants.MAX_WHEELS){
+            throw new IESMyException("Demasiadas ruedas men");
+        }
         this.numWheels = numWheels;
     }
 
