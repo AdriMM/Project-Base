@@ -1,4 +1,4 @@
 package com.iesemilidarder.project.base.data.activities;
 
-public class Product {
+public abstract class Product {
 }

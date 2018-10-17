@@ -1,4 +1,4 @@
 package com.iesemilidarder.project.base.data.activities;
 
-public class RentalCar {
+public class RentalCar extends Product {
 }
